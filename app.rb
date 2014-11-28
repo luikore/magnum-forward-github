@@ -8,7 +8,7 @@ CONFIG = YAML.load_file __dir__ + '/config.yml'
 LOGGER = Logger.new __dir__ + '/app.log'
 LOGGER.level = Logger::INFO
 
-if ENV['test-status']
+if ENV['test_status']
   get '/ci-forward-github/status' do
    'good'
   end

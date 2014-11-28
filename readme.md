@@ -16,5 +16,5 @@
 
 ### To simply test the status
 
-    test-status=1 ./run.sh
+    test_status=1 ./run.sh
     curl localhost:4567/ci-forward-github/status
