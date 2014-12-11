@@ -1,2 +1,2 @@
-access_token: <your-github-access-token>
-repo: <user-name>/<project-name>
+:access_token: <your-github-access-token>
+:repo: <user-name>/<project-name>
